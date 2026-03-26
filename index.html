@@ -1,124 +1,337 @@
-<h3>Insecticides</h3<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ndeeya Enterprise | Agrochemicals & Fertilisers</title>
-  <meta name="description" content="Ndeeya Enterprise is a Ghana-based agrochemical company supplying herbicides, insecticides, fungicides and fertilisers." />
+  <title>Ndeeya Enterprise | Agrochemicals, Cereals Trading & Farming</title>
+  <meta name="description" content="Ndeeya Enterprise is a Ghana-based agricultural business supplying agrochemicals, fertilisers, improved seeds, cereals, and bulk farm produce." />
+
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; color: #1f2937; }
-    header { background: #166534; color: white; padding: 30px; }
-    section { padding: 30px; }
-    h1, h2 { margin-bottom: 10px; }
-    .products li { margin-bottom: 8px; }
-    footer { background: #14532d; color: white; padding: 15px; text-align: center; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #1f2937;
+      background: #f9fafb;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0, 70, 20, 0.65), rgba(0, 70, 20, 0.65)),
+      url('Agrochemicals.jpg') center/cover no-repeat;
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px 8px 0;
+      padding: 12px 22px;
+      background: #facc15;
+      color: #14532d;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    section {
+      padding: 35px 20px;
+      max-width: 1100px;
+      margin: auto;
+      background: white;
+      margin-top: 18px;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #166534;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      color: #14532d;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .product-images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+
+    .product-images img {
+      width: 160px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .highlight {
+      background: #ecfdf5;
+      border-left: 5px solid #16a34a;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #14532d;
+      color: white;
+      padding: 18px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .product-images img {
+        width: 100%;
+        height: auto;
+      }
+    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>NDEEYA ENTERPRISE</h1>
-  <p>Reliable solutions for modern agriculture</p>
-</header>
+  <header>
+    <h1>NDEEYA ENTERPRISE</h1>
+    <p><strong>Agrochemicals | Cereals Trading | Farming</strong></p>
+    <p>Reliable agricultural solutions for farmers, traders and agribusinesses.</p>
+    <a href="#products" class="btn">View Products</a>
+    <a href="#contact" class="btn">Contact Us</a>
+  </header>
 
-<section>
-  <h2>About Us</h2>
-  <p>
-    Ndeeya Enterprise is a Ghana-based agrochemical business providing
-    high-quality agrochemicals, fertilisers and farm inputs to support
-    sustainable agriculture.
-  </p>
-</section>
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Ndeeya Enterprise is a Ghana-based agricultural business dedicated to supplying quality
+      agrochemicals, fertilisers, improved seeds, cereals, and farm produce to support farmers,
+      traders, and agribusiness growth.
+    </p>
+  </section>
 
-<section>
-  <h2>Our Products</h2>
-  <ul class="products">
-    <li>Glyphosate (Herbicide)</li>
-    <li>Atrazine (Herbicide)</li>
-    <li>Lambda-Cyhalothrin (Insecticide)</li>
-    <li>Imidacloprid (Insecticide)</li>
-    <li>Mancozeb (Fungicide)</li>
-    <li>Copper Fungicide</li>
-    <li>Urea Fertiliser</li>
-    <li>NPK Fertiliser</li>
-    <li>Plant Growth Regulators</li>
-  </ul>
-</section>
+  <section>
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>Quality agricultural products</li>
+      <li>Trusted agrochemical and cereal supply</li>
+      <li>Reliable bulk supply</li>
+      <li>Competitive pricing</li>
+      <li>Customer-focused service</li>
+      <li>Professional response</li>
+    </ul>
+  </section>
 
-<section>
-  <h2>Contact Us</h2>
-  <p><strong>CEO:</strong> Hamidu Mohammed Yussif</p>
-  <p><strong>Phone:</strong> +233 24 456 3421</p>
-  <p><strong>Email:</strong> ndeeyaenterprise@gmail.com</p>
-  <p><strong>Address:</strong> Sagnarigu Street 238, Tamale, Ghana</p>
-  <p><strong>Website:</strong> www.NdeeyaEnterprise.com</p>
-</section>
+  <section id="products">
+    <h2>Our Products</h2>
+    <p>We supply a wide range of agricultural inputs, cereals, seeds and bulk farm produce.</p>
 
-<footer>
-  © 2025 Ndeeya Enterprise. All rights reserved.
-</footer>
+    <div class="product-images">
+      <img src="Agrochemicals.jpg" alt="Agrochemicals">
+      <img src="Agrochemicals (2).png" alt="Agriculture products">
+    </div>
+
+    <h3>Herbicides</h3>
+    <ul>
+      <li>Glyphosate</li>
+      <li>Atrazine</li>
+      <li>Paraquat</li>
+      <li>2,4-D Amine</li>
+      <li>Butachlor</li>
+      <li>Pendimethalin</li>
+      <li>Metolachlor</li>
+      <li>Acetochlor</li>
+      <li>Alachlor</li>
+      <li>Diuron</li>
+    </ul>
+
+    <div class="product-images">
+      <img src="Glyphosate.jpg" alt="Glyphosate">
+      <img src="Agrochemicals.jpg" alt="Herbicides">
+    </div>
+
+    <h3>Insecticides</h3>
+    <ul>
+      <li>Lambda-Cyhalothrin</li>
+      <li>Imidacloprid</li>
+      <li>Cypermethrin</li>
+      <li>Chlorpyrifos</li>
+      <li>Deltamethrin</li>
+      <li>Thiamethoxam</li>
+      <li>Emamectin Benzoate</li>
+      <li>Abamectin</li>
+      <li>Spinosad</li>
+      <li>Indoxacarb</li>
+    </ul>
+
+    <div class="product-images">
+      <img src="Lambda cyhalothrin.jpg" alt="Lambda Cyhalothrin">
+      <img src="Agrochemicals (2).png" alt="Insecticides">
+    </div>
+
+    <h3>Fungicides</h3>
+    <ul>
+      <li>Mancozeb</li>
+      <li>Copper Fungicide</li>
+      <li>Carbendazim</li>
+      <li>Metalaxyl</li>
+      <li>Propiconazole</li>
+      <li>Azoxystrobin</li>
+      <li>Sulfur</li>
+      <li>Chlorothalonil</li>
+      <li>Tebuconazole</li>
+      <li>Hexaconazole</li>
+    </ul>
+
+    <div class="product-images">
+      <img src="Mancozeb.jpg" alt="Mancozeb">
+      <img src="Agrochemicals.jpg" alt="Fungicides">
+    </div>
+
+    <h3>Fertilisers</h3>
+    <ul>
+      <li>Urea</li>
+      <li>NPK</li>
+      <li>Ammonium Sulphate</li>
+      <li>Calcium Nitrate</li>
+      <li>Potassium Chloride (MOP)</li>
+      <li>Potassium Sulphate (SOP)</li>
+      <li>Diammonium Phosphate (DAP)</li>
+      <li>Organic Compost</li>
+      <li>Foliar Fertiliser</li>
+      <li>Seaweed Fertiliser</li>
+    </ul>
+
+    <div class="product-images">
+      <img src="Agrochemicals.jpg" alt="Fertilisers">
+      <img src="Agrochemicals (2).png" alt="Farm inputs">
+    </div>
+
+    <h3>Improved Seeds</h3>
+    <ul>
+      <li>Improved Maize Seed</li>
+      <li>Hybrid Maize Seed</li>
+      <li>Rice Seed</li>
+      <li>Soybean Seed</li>
+      <li>Groundnut Seed</li>
+      <li>Millet Seed</li>
+      <li>Sorghum Seed</li>
+      <li>Cowpea Seed</li>
+      <li>Tomato Seed</li>
+      <li>Pepper Seed</li>
+    </ul>
+
+    <h3>Cereals & Grains</h3>
+    <ul>
+      <li>Maize</li>
+      <li>White Maize</li>
+      <li>Yellow Maize</li>
+      <li>Rice</li>
+      <li>Paddy Rice</li>
+      <li>Soybean</li>
+      <li>Millet</li>
+      <li>Sorghum</li>
+      <li>Groundnut</li>
+      <li>Beans</li>
+    </ul>
+
+    <h3>Farm Produce & Bulk Supply</h3>
+    <ul>
+      <li>Maize in Bulk</li>
+      <li>Rice in Bulk</li>
+      <li>Soybean in Bulk</li>
+      <li>Groundnut in Bulk</li>
+      <li>Millet in Bulk</li>
+      <li>Sorghum in Bulk</li>
+      <li>Fertiliser Bulk Supply</li>
+      <li>Agrochemical Bulk Supply</li>
+      <li>Improved Seed Bulk Supply</li>
+      <li>Agricultural Commodity Supply</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      To provide quality agricultural inputs and farm produce that support farmers,
+      improve productivity, and strengthen agribusiness in Ghana and beyond.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Vision</h2>
+    <p>
+      To become a trusted leader in agrochemicals, cereals trading, and agricultural supply
+      across Ghana and West Africa.
+    </p>
+  </section>
+
+  <section>
+    <h2>Who We Serve</h2>
+    <ul>
+      <li>Farmers</li>
+      <li>Agro dealers</li>
+      <li>Grain traders</li>
+      <li>Wholesalers</li>
+      <li>Food processors</li>
+      <li>Institutions</li>
+      <li>Agribusinesses</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Our Promise</h2>
+    <div class="highlight">
+      At Ndeeya Enterprise, we are committed to supplying reliable products,
+      fair prices, and responsive customer service to meet the needs of farmers,
+      traders, and agribusiness clients.
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>CEO:</strong> Hamidu Mohammed Yussif</p>
+    <p><strong>Phone:</strong> +233 24 456 3421</p>
+    <p><strong>Email:</strong> ndeeyaenterprise@gmail.com</p>
+    <p><strong>Address:</strong> Tamale, Ghana</p>
+    <p><strong>Website:</strong> www.ndeeyaenterprise.com</p>
+  </section>
+
+  <section>
+    <h2>Get in Touch</h2>
+    <p>
+      Need quality agrochemicals, fertilisers, improved seeds or cereals?
+      Contact Ndeeya Enterprise today for reliable supply and professional service.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Ndeeya Enterprise. All rights reserved.
+  </footer>
 
 </body>
-</html>>
-<a href="https://wa.me/233244563421" target="_blank">
-  <img src="images/insecticides.jpg" alt="Insecticides"
-       style="max-width:100%;border-radius:8px;cursor:pointer;">
-</a>
-<ul>
-  <li>Lambda-Cyhalothrin – Fast-acting insect control</li>
-  <li>Imidacloprid – Systemic control for sucking pests</li>
-</ul><h3>Fertilisers</h3>
-<a href="https://wa.me/233244563421" target="_blank">
-  <img src="images/fertilisers.jpg" alt="Fertilisers"
-       style="max-width:100%;border-radius:8px;cursor:pointer;">
-</a>
-<ul>
-  <li>Urea – High nitrogen for leafy growth</li>
-  <li>NPK – Balanced nutrition for crops</li>
-</ul><h3>Fungicides</h3>
-<a href="https://wa.me/233244563421" target="_blank">
-  <img src="images/fungicides.jpg" alt="Fungicides"
-       style="max-width:100%;border-radius:8px;cursor:pointer;">
-</a>
-<ul>
-  <li>Mancozeb – Prevents blight and leaf spot</li>
-  <li>Copper Fungicide – Controls fungal & bacterial diseases</li>
-</ul><h3>Herbicides</h3>
-<a href="https://wa.me/233244563421" target="_blank">
-  <img src="images/herbicides.jpg" alt="Herbicides"
-       style="max-width:100%;border-radius:8px;cursor:pointer;">
-</a>
-<ul>
-  <li>Glyphosate – Broad spectrum weed control</li>
-  <li>Atrazine – Selective weed control for maize</li>
-</ul><section>
-  <h2>Our Products</h2>
-
-  <h3>Herbicides</h3>
-  <img src="images/herbicides.jpg" alt="Herbicides" style="max-width:100%;border-radius:8px;">
-  <ul>
-    <li>Glyphosate – Broad spectrum weed control</li>
-    <li>Atrazine – Selective weed control for maize</li>
-  </ul>
-
-  <h3>Insecticides</h3>
-  <img src="images/insecticides.jpg" alt="Insecticides" style="max-width:100%;border-radius:8px;">
-  <ul>
-    <li>Lambda-Cyhalothrin – Fast-acting insect control</li>
-    <li>Imidacloprid – Systemic control for sucking pests</li>
-  </ul>
-
-  <h3>Fungicides</h3>
-  <img src="images/fungicides.jpg" alt="Fungicides" style="max-width:100%;border-radius:8px;">
-  <ul>
-    <li>Mancozeb – Prevents blight and leaf spot</li>
-    <li>Copper Fungicide – Controls fungal & bacterial diseases</li>
-  </ul>
-
-  <h3>Fertilisers</h3>
-  <img src="images/fertilisers.jpg" alt="Fertilisers" style="max-width:100%;border-radius:8px;">
-  <ul>
-    <li>Urea – High nitrogen for leafy growth</li>
-    <li>NPK – Balanced nutrition for crops</li>
-  </ul>
-</section>
+</html>
